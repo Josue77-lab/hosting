@@ -1,0 +1,11 @@
+body{
+    padding: 0;
+    background: url(Imagenes/fondo.jpg);
+}
+
+#carouselExampleSlidesOnly{
+    margin-left: 35%;
+    width: 25%;
+    height: 30%;
+    background: #ffffff;
+}

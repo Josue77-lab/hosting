@@ -1,0 +1,78 @@
+*{
+    overflow-x: hidden;
+}
+
+
+#nombre{
+    position: relative;
+    width: 30%;
+    margin-left: 5%;
+    background: white;
+    opacity: 0.4;
+    color: black;
+}
+
+
+
+#btn_info:hover{
+    background: white;
+    color: black;
+    text-emphasis-color: black;
+}
+
+#btn_info{
+    background: none;
+    border: 2px solid white;
+    color: white;
+}
+
+.main-header{
+    background: url(Imagenes/fondo.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    min-height: 500px;
+}
+
+.background-overlay{
+    background: rgb(48, 51, 107, 0.7);
+}
+
+#nombre_:focus{
+    border: 3px solid #0062CC;
+}
+
+#correo_:focus{
+    border: 3px solid #0062CC;
+}
+
+#btn_confirm:hover{
+    background: #213BA5;
+}
+
+#etiquetas_{
+    font-size: 120%;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 400px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-item {
+      height: 280px;
+    }
+  }
+
+#msg_{
+    color: blueviolet;
+}
+
+
+#titulo_{
+    font-size: 200%;
+}
