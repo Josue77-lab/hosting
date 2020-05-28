@@ -2,10 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=h2, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Shop</title>
+    <script src="/static/js/jquery-1.12.1.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="width: 101%;" style="background-color: #e3f2fd;">
+        <div class="container">
+            <a id="titulo_" href="#" class="navbar-brand">
+                <img src="Imagenes/logo.png" alt="" width="80" height="50" class="d-inline-block"> Electronics Shop!
+            </a>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#contactanos" id="etiquetas_">Contactanos<span class="sr-only" >(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Productos.html" id="etiquetas_">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Administrador.html" id="etiquetas_">Administrador</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="proveedores.html" id="etiquetas_">Proveedores</a>
+                  </li>
+                  <li class="nav-item" id="nombre">
+                    <marquee class="nav-link" style="color: black;" href="administrador.html" id="etiquetas_">Josue Garcia 0901-20-7708</marquee>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="main-header">
+        <div class="background-overlay text-white py-5">
+            <div class="containter">
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <h1 style="overflow-y: hidden; color: white;" id="msg_">Obten lo ultimo en tecnologia y expande tus conocimientos con el mejor producto internacional</h1>
+                        <a href="Informacion.html" style="white: black;" id="btn_info"  class="btn btn-outline-secondary btn-lg ">Leer Mas</a>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="container">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="Imagenes/arduino.jpg" alt="First slide">
+                                  </div>
+                                  <div class="carousel-item" style="overflow-y: hidden;">
+                                    <img class="d-block w-100" src="Imagenes/nano.jpg" alt="Second slide">
+                                  </div>
+                                  <div class="carousel-item" style="overflow-y: hidden;">
+                                    <img class="d-block w-100" src="Imagenes/mega.jpg" alt="Third slide">
+                                  </div>
+                                </div>
+                                <a style="top: 89%;  background-color: gray; height: 35px; width: 60px;" class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                                <a style="top: 89%;  background-color: gray; height: 35px; width: 60px;" class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </div>
+                        </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </header>
 </head>
 <body>
-    <h2>Hola mundo</h2>
+    <section class=" text-white py-5" id="contactanos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <input type="text" class="form-control form-control-lg" placeholder="Ingrese su nombre" id="nombre_">
+                </div>
+                <div class="col-md-4">
+                    <input type="email" name="" id="correo_" placeholder="Ingrese su correo" class="form-control form-control-lg">
+                </div>
+                <div class="col-md-4">
+                    <input type="submit" id="btn_confirm" value="Contactar" class="btn btn-primary btn-lg btn-block">
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="container" style="text-align: center;">
+                  <a style="font-size: 140%;" href="#"><img  width="300;" height="100;"  src="Imagenes/umg.png"></a>
+                  <p style="color: black">“Y conoces la verdad y la verdad os hará libre “ Juan 8.32</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="principal.js" charset="utf-8"></script>
 </body>
 </html>
+
